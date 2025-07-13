@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* 🌸 Theme customizations for My Style Jumana */
+@theme {
+  --color-primary: #EAB8A1;
+  --color-secondary: #B8A99D;
+  --color-accent: #7D7F8D;
+  --color-beige: #D6C6B8;
+  --color-light: #F5F5F5;
+  --color-dark: #333333;
+
+  --font-family-display: "Playfair Display", serif;
+  --font-family-body: "Montserrat", sans-serif;
+}
+
+/* Optional: mobile hover support fallback */
+@variant hover (&:hover);
